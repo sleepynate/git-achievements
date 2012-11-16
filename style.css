@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Average+Sans);
+
 a:link {
 	color: gray;
 }
@@ -5,22 +7,31 @@ a:visited {
 	color: gray;
 }
 body {
-    background-color: black;
-    color: white;
+    background-color: #ce9;
+    font-family: "Average Sans", Sans;
+    color: #449;
     margin: 0 auto;
+    margin-top: 1em;
     width: 700px;
     text-align: center;
 }
 img {
     float : right;
     height : 50px;
+    border: 2px solid gray;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    margin: .5em;
 }
 li {
-    background-color: #1E2024;
+    background-color: #ffc;
     border: 1px solid gray;
     padding: .25em;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    padding-left: 1em;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     margin-bottom: .5em;
 }
 div.title {
